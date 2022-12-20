@@ -37,10 +37,10 @@ class NftFilterCollectionViewCellScreen: UIView {
     
     func configConstraits() {
         NSLayoutConstraint.activate([
-            filterLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
-            filterLabel.centerYAnchor.constraint(equalTo: centerYAnchor),
-            filterLabel.heightAnchor.constraint(equalToConstant: 34),
-            filterLabel.widthAnchor.constraint(equalToConstant: 100),
+            filterLabel.topAnchor.constraint(equalTo: topAnchor),
+            filterLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
+            filterLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
+            filterLabel.bottomAnchor.constraint(equalTo: bottomAnchor),
         ])
     }
     
