@@ -62,6 +62,16 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return viewModel.sizeForItemAt
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        viewModel.setFilter(indexPath: indexPath, searchText: screen?.searchBar.text ?? "")
+        screen?.collectionView.reloadData()
+        screen?.collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
+        screen?.tableView.reloadData()
+        if viewModel.numberOfRowsInSection > 0 {
+            screen?.tableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: .top, animated: true)
+        }
+    }
 
 }
 
