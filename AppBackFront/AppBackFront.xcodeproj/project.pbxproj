@@ -19,9 +19,15 @@
 		345E1C95293DF35500C36B5B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 345E1C94293DF35500C36B5B /* FirebaseAuth */; };
 		345E1C97293DF35500C36B5B /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 345E1C96293DF35500C36B5B /* FirebaseCrashlytics */; };
 		3474B63E2951B32D00BC8BCD /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B63D2951B32D00BC8BCD /* HomeScreen.swift */; };
+		3474B6412951C26A00BC8BCD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6402951C26A00BC8BCD /* HomeViewModel.swift */; };
+		3474B6452951C2E900BC8BCD /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6442951C2E900BC8BCD /* HomeService.swift */; };
+		3474B6472951C33200BC8BCD /* GenericService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6462951C33200BC8BCD /* GenericService.swift */; };
+		3474B64A2951C49700BC8BCD /* HomeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3474B6492951C49700BC8BCD /* HomeData.json */; };
+		3474B64D2951C55D00BC8BCD /* NFTData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B64C2951C55D00BC8BCD /* NFTData.swift */; };
 		34B7CC8429507F33004D9557 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7CC8329507F33004D9557 /* AlertController.swift */; };
 		34B7CC8729508A5C004D9557 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7CC8629508A5C004D9557 /* TabBarVC.swift */; };
 		34B7CC8B29508B03004D9557 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7CC8A29508B03004D9557 /* HomeVC.swift */; };
+		A2E67F48E651FD370ECB4804 /* Pods_AppBackFront.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D51E38ABC2FACE98370C60 /* Pods_AppBackFront.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +43,17 @@
 		343B9DB028D3A48A00956373 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		345E1C91293DF28B00C36B5B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3474B63D2951B32D00BC8BCD /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		3474B6402951C26A00BC8BCD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3474B6442951C2E900BC8BCD /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		3474B6462951C33200BC8BCD /* GenericService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericService.swift; sourceTree = "<group>"; };
+		3474B6492951C49700BC8BCD /* HomeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HomeData.json; sourceTree = "<group>"; };
+		3474B64C2951C55D00BC8BCD /* NFTData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTData.swift; sourceTree = "<group>"; };
 		34B7CC8329507F33004D9557 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		34B7CC8629508A5C004D9557 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		34B7CC8A29508B03004D9557 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		76D51E38ABC2FACE98370C60 /* Pods_AppBackFront.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppBackFront.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF3C392936C47A98CD0C4CA /* Pods-AppBackFront.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppBackFront.debug.xcconfig"; path = "Target Support Files/Pods-AppBackFront/Pods-AppBackFront.debug.xcconfig"; sourceTree = "<group>"; };
+		B8FA7F8B3D833E91C47D040C /* Pods-AppBackFront.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppBackFront.release.xcconfig"; path = "Target Support Files/Pods-AppBackFront/Pods-AppBackFront.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +63,7 @@
 			files = (
 				345E1C95293DF35500C36B5B /* FirebaseAuth in Frameworks */,
 				345E1C97293DF35500C36B5B /* FirebaseCrashlytics in Frameworks */,
+				A2E67F48E651FD370ECB4804 /* Pods_AppBackFront.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,8 @@
 			children = (
 				343B9D9B28D3A07C00956373 /* AppBackFront */,
 				343B9D9A28D3A07C00956373 /* Products */,
+				84EBA4D19E57FD8D9D560708 /* Pods */,
+				E4F0144F0165BC9A776CB588 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +108,9 @@
 		343B9D9B28D3A07C00956373 /* AppBackFront */ = {
 			isa = PBXGroup;
 			children = (
+				3474B64B2951C54A00BC8BCD /* Model */,
+				3474B6482951C48900BC8BCD /* Json */,
+				3474B6422951C2B600BC8BCD /* Service */,
 				34B7CC8829508A9C004D9557 /* Feature */,
 				34B7CC8529508A35004D9557 /* TabBarController */,
 				34B7CC8229507F1A004D9557 /* Alert */,
@@ -122,6 +142,47 @@
 			path = Screen;
 			sourceTree = "<group>";
 		};
+		3474B63F2951C23600BC8BCD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3474B6402951C26A00BC8BCD /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3474B6422951C2B600BC8BCD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3474B6432951C2D700BC8BCD /* HomeService */,
+				3474B6462951C33200BC8BCD /* GenericService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		3474B6432951C2D700BC8BCD /* HomeService */ = {
+			isa = PBXGroup;
+			children = (
+				3474B6442951C2E900BC8BCD /* HomeService.swift */,
+			);
+			name = HomeService;
+			sourceTree = "<group>";
+		};
+		3474B6482951C48900BC8BCD /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				3474B6492951C49700BC8BCD /* HomeData.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		3474B64B2951C54A00BC8BCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3474B64C2951C55D00BC8BCD /* NFTData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		34B7CC8229507F1A004D9557 /* Alert */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +211,7 @@
 		34B7CC8929508AC2004D9557 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				3474B63F2951C23600BC8BCD /* ViewModel */,
 				34B7CC8C2951B24F004D9557 /* Screen */,
 				34B7CC8A29508B03004D9557 /* HomeVC.swift */,
 			);
@@ -164,6 +226,23 @@
 			path = Screen;
 			sourceTree = "<group>";
 		};
+		84EBA4D19E57FD8D9D560708 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACF3C392936C47A98CD0C4CA /* Pods-AppBackFront.debug.xcconfig */,
+				B8FA7F8B3D833E91C47D040C /* Pods-AppBackFront.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4F0144F0165BC9A776CB588 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76D51E38ABC2FACE98370C60 /* Pods_AppBackFront.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 343B9DAD28D3A07E00956373 /* Build configuration list for PBXNativeTarget "AppBackFront" */;
 			buildPhases = (
+				FDF62B02DC9824B7BE711E2A /* [CP] Check Pods Manifest.lock */,
 				343B9D9528D3A07C00956373 /* Sources */,
 				343B9D9628D3A07C00956373 /* Frameworks */,
 				343B9D9728D3A07C00956373 /* Resources */,
+				B1B39150BB45771B790BBEF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3474B64A2951C49700BC8BCD /* HomeData.json in Resources */,
 				343B9DA928D3A07E00956373 /* LaunchScreen.storyboard in Resources */,
 				345E1C92293DF28B00C36B5B /* GoogleService-Info.plist in Resources */,
 				343B9DA628D3A07E00956373 /* Assets.xcassets in Resources */,
@@ -237,18 +319,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B1B39150BB45771B790BBEF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppBackFront/Pods-AppBackFront-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppBackFront/Pods-AppBackFront-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppBackFront/Pods-AppBackFront-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF62B02DC9824B7BE711E2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppBackFront-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		343B9D9528D3A07C00956373 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				343B9DA128D3A07C00956373 /* LoginVC.swift in Sources */,
+				3474B6412951C26A00BC8BCD /* HomeViewModel.swift in Sources */,
 				343B9DB128D3A48A00956373 /* LoginScreen.swift in Sources */,
 				343B9D9D28D3A07C00956373 /* AppDelegate.swift in Sources */,
 				34B7CC8B29508B03004D9557 /* HomeVC.swift in Sources */,
 				341CF71C293DFDAC001A230A /* UIViewController+Extension.swift in Sources */,
+				3474B6472951C33200BC8BCD /* GenericService.swift in Sources */,
+				3474B6452951C2E900BC8BCD /* HomeService.swift in Sources */,
 				34B7CC8429507F33004D9557 /* AlertController.swift in Sources */,
 				3474B63E2951B32D00BC8BCD /* HomeScreen.swift in Sources */,
+				3474B64D2951C55D00BC8BCD /* NFTData.swift in Sources */,
 				341CF71E293E06AA001A230A /* String+Extension.swift in Sources */,
 				34B7CC8729508A5C004D9557 /* TabBarVC.swift in Sources */,
 				343B9D9F28D3A07C00956373 /* SceneDelegate.swift in Sources */,
@@ -385,6 +513,7 @@
 		};
 		343B9DAE28D3A07E00956373 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF3C392936C47A98CD0C4CA /* Pods-AppBackFront.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -415,6 +544,7 @@
 		};
 		343B9DAF28D3A07E00956373 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8FA7F8B3D833E91C47D040C /* Pods-AppBackFront.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
