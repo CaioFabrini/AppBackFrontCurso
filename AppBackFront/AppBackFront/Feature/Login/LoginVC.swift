@@ -22,7 +22,7 @@ class LoginVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dismissKeyBoard()
+        dismissKeyboard()
         auth = Auth.auth()
         loginScreen?.delegate(delegate: self)
         loginScreen?.configTextFieldsDelegate(delegate: self)
