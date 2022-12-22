@@ -37,6 +37,9 @@
 		3474B699295351AE00BC8BCD /* NftDescriptionTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B698295351AE00BC8BCD /* NftDescriptionTableViewCellScreen.swift */; };
 		3474B69F29537C1100BC8BCD /* CACornerMask+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B69B29537C1100BC8BCD /* CACornerMask+Extension.swift */; };
 		3474B6A029537C1100BC8BCD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B69C29537C1100BC8BCD /* UIView+Extension.swift */; };
+		3474B6A529546C0E00BC8BCD /* LastestDealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6A429546C0E00BC8BCD /* LastestDealTableViewCell.swift */; };
+		3474B6A829546C2500BC8BCD /* LastestDealTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6A729546C2500BC8BCD /* LastestDealTableViewCellScreen.swift */; };
+		3474B6AB29546F0500BC8BCD /* LastestDealTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6AA29546F0500BC8BCD /* LastestDealTableViewCellViewModel.swift */; };
 		34B7CC8429507F33004D9557 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7CC8329507F33004D9557 /* AlertController.swift */; };
 		34B7CC8729508A5C004D9557 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7CC8629508A5C004D9557 /* TabBarVC.swift */; };
 		34B7CC8B29508B03004D9557 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7CC8A29508B03004D9557 /* HomeVC.swift */; };
@@ -74,6 +77,9 @@
 		3474B698295351AE00BC8BCD /* NftDescriptionTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NftDescriptionTableViewCellScreen.swift; sourceTree = "<group>"; };
 		3474B69B29537C1100BC8BCD /* CACornerMask+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CACornerMask+Extension.swift"; sourceTree = "<group>"; };
 		3474B69C29537C1100BC8BCD /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3474B6A429546C0E00BC8BCD /* LastestDealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastestDealTableViewCell.swift; sourceTree = "<group>"; };
+		3474B6A729546C2500BC8BCD /* LastestDealTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastestDealTableViewCellScreen.swift; sourceTree = "<group>"; };
+		3474B6AA29546F0500BC8BCD /* LastestDealTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastestDealTableViewCellViewModel.swift; sourceTree = "<group>"; };
 		34B7CC8329507F33004D9557 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		34B7CC8629508A5C004D9557 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		34B7CC8A29508B03004D9557 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -215,6 +221,7 @@
 		3474B64E2952213F00BC8BCD /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				3474B6A329546BC900BC8BCD /* LastestDealTableViewCell */,
 				3474B6942953511D00BC8BCD /* NftDescriptionTableViewCell */,
 				3474B68E295338F700BC8BCD /* NftImageTableViewCell */,
 				3474B6552952302300BC8BCD /* NftTableViewCell */,
@@ -322,6 +329,32 @@
 			children = (
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		3474B6A329546BC900BC8BCD /* LastestDealTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3474B6A929546EE800BC8BCD /* LastestDealTableViewCellViewModel */,
+				3474B6A629546C1500BC8BCD /* Screen */,
+				3474B6A429546C0E00BC8BCD /* LastestDealTableViewCell.swift */,
+			);
+			path = LastestDealTableViewCell;
+			sourceTree = "<group>";
+		};
+		3474B6A629546C1500BC8BCD /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3474B6A729546C2500BC8BCD /* LastestDealTableViewCellScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		3474B6A929546EE800BC8BCD /* LastestDealTableViewCellViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3474B6AA29546F0500BC8BCD /* LastestDealTableViewCellViewModel.swift */,
+			);
+			path = LastestDealTableViewCellViewModel;
 			sourceTree = "<group>";
 		};
 		34B7CC8229507F1A004D9557 /* Alert */ = {
@@ -510,6 +543,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3474B69F29537C1100BC8BCD /* CACornerMask+Extension.swift in Sources */,
+				3474B6AB29546F0500BC8BCD /* LastestDealTableViewCellViewModel.swift in Sources */,
 				343B9DA128D3A07C00956373 /* LoginVC.swift in Sources */,
 				3474B6932953399C00BC8BCD /* NftImageTableViewCellScreen.swift in Sources */,
 				3474B6412951C26A00BC8BCD /* HomeViewModel.swift in Sources */,
@@ -519,12 +553,14 @@
 				341CF71C293DFDAC001A230A /* UIViewController+Extension.swift in Sources */,
 				3474B6512952218700BC8BCD /* NftFilterCollectionViewCell.swift in Sources */,
 				3474B699295351AE00BC8BCD /* NftDescriptionTableViewCellScreen.swift in Sources */,
+				3474B6A529546C0E00BC8BCD /* LastestDealTableViewCell.swift in Sources */,
 				3474B654295221CB00BC8BCD /* NftFilterCollectionViewCellScreen.swift in Sources */,
 				3474B6472951C33200BC8BCD /* GenericService.swift in Sources */,
 				3474B6A029537C1100BC8BCD /* UIView+Extension.swift in Sources */,
 				3474B6452951C2E900BC8BCD /* HomeService.swift in Sources */,
 				34B7CC8429507F33004D9557 /* AlertController.swift in Sources */,
 				3474B63E2951B32D00BC8BCD /* HomeScreen.swift in Sources */,
+				3474B6A829546C2500BC8BCD /* LastestDealTableViewCellScreen.swift in Sources */,
 				3474B6902953391900BC8BCD /* NftImageTableViewCell.swift in Sources */,
 				3474B64D2951C55D00BC8BCD /* NFTData.swift in Sources */,
 				341CF71E293E06AA001A230A /* String+Extension.swift in Sources */,

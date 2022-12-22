@@ -16,7 +16,7 @@ class NftDetailViewModel {
     }
     
     public var numberOfRowsInSection: Int {
-        return 2
+        return 3
     }
     
     public var nftImage: String {
@@ -35,12 +35,22 @@ class NftDetailViewModel {
         return nft.nftDescription ?? ""
     }
     
+    public var getNft: Nft {
+        return nft
+    }
+    
     public func heightForRowAt(indexPath: IndexPath, width: CGFloat) -> CGFloat {
         switch NameCellNftDetail(rawValue: indexPath.row) {
+            
         case .nftImage:
             return 400
+            
         case .description:
             return nftDescription.height(withConstrainedWidth: width - 40, font: UIFont.systemFont(ofSize: 18)) + 89
+            
+        case .lastestDeal:
+            return 400
+            
         default:
             return 0
         }
