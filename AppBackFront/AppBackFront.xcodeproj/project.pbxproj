@@ -40,6 +40,8 @@
 		3474B6A529546C0E00BC8BCD /* LastestDealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6A429546C0E00BC8BCD /* LastestDealTableViewCell.swift */; };
 		3474B6A829546C2500BC8BCD /* LastestDealTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6A729546C2500BC8BCD /* LastestDealTableViewCellScreen.swift */; };
 		3474B6AB29546F0500BC8BCD /* LastestDealTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6AA29546F0500BC8BCD /* LastestDealTableViewCellViewModel.swift */; };
+		3474B6AE29547B0500BC8BCD /* ListOffersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6AD29547B0500BC8BCD /* ListOffersTableViewCell.swift */; };
+		3474B6B129547B4D00BC8BCD /* ListOffersTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6B029547B4D00BC8BCD /* ListOffersTableViewCellScreen.swift */; };
 		34B7CC8429507F33004D9557 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7CC8329507F33004D9557 /* AlertController.swift */; };
 		34B7CC8729508A5C004D9557 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7CC8629508A5C004D9557 /* TabBarVC.swift */; };
 		34B7CC8B29508B03004D9557 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7CC8A29508B03004D9557 /* HomeVC.swift */; };
@@ -80,6 +82,8 @@
 		3474B6A429546C0E00BC8BCD /* LastestDealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastestDealTableViewCell.swift; sourceTree = "<group>"; };
 		3474B6A729546C2500BC8BCD /* LastestDealTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastestDealTableViewCellScreen.swift; sourceTree = "<group>"; };
 		3474B6AA29546F0500BC8BCD /* LastestDealTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastestDealTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		3474B6AD29547B0500BC8BCD /* ListOffersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOffersTableViewCell.swift; sourceTree = "<group>"; };
+		3474B6B029547B4D00BC8BCD /* ListOffersTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOffersTableViewCellScreen.swift; sourceTree = "<group>"; };
 		34B7CC8329507F33004D9557 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		34B7CC8629508A5C004D9557 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		34B7CC8A29508B03004D9557 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -221,6 +225,7 @@
 		3474B64E2952213F00BC8BCD /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				3474B6AC29547ADB00BC8BCD /* ListOffersTableViewCell */,
 				3474B6A329546BC900BC8BCD /* LastestDealTableViewCell */,
 				3474B6942953511D00BC8BCD /* NftDescriptionTableViewCell */,
 				3474B68E295338F700BC8BCD /* NftImageTableViewCell */,
@@ -355,6 +360,23 @@
 				3474B6AA29546F0500BC8BCD /* LastestDealTableViewCellViewModel.swift */,
 			);
 			path = LastestDealTableViewCellViewModel;
+			sourceTree = "<group>";
+		};
+		3474B6AC29547ADB00BC8BCD /* ListOffersTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3474B6AF29547B3800BC8BCD /* Screen */,
+				3474B6AD29547B0500BC8BCD /* ListOffersTableViewCell.swift */,
+			);
+			path = ListOffersTableViewCell;
+			sourceTree = "<group>";
+		};
+		3474B6AF29547B3800BC8BCD /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3474B6B029547B4D00BC8BCD /* ListOffersTableViewCellScreen.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 		34B7CC8229507F1A004D9557 /* Alert */ = {
@@ -551,6 +573,7 @@
 				343B9D9D28D3A07C00956373 /* AppDelegate.swift in Sources */,
 				34B7CC8B29508B03004D9557 /* HomeVC.swift in Sources */,
 				341CF71C293DFDAC001A230A /* UIViewController+Extension.swift in Sources */,
+				3474B6AE29547B0500BC8BCD /* ListOffersTableViewCell.swift in Sources */,
 				3474B6512952218700BC8BCD /* NftFilterCollectionViewCell.swift in Sources */,
 				3474B699295351AE00BC8BCD /* NftDescriptionTableViewCellScreen.swift in Sources */,
 				3474B6A529546C0E00BC8BCD /* LastestDealTableViewCell.swift in Sources */,
@@ -559,6 +582,7 @@
 				3474B6A029537C1100BC8BCD /* UIView+Extension.swift in Sources */,
 				3474B6452951C2E900BC8BCD /* HomeService.swift in Sources */,
 				34B7CC8429507F33004D9557 /* AlertController.swift in Sources */,
+				3474B6B129547B4D00BC8BCD /* ListOffersTableViewCellScreen.swift in Sources */,
 				3474B63E2951B32D00BC8BCD /* HomeScreen.swift in Sources */,
 				3474B6A829546C2500BC8BCD /* LastestDealTableViewCellScreen.swift in Sources */,
 				3474B6902953391900BC8BCD /* NftImageTableViewCell.swift in Sources */,

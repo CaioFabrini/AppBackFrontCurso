@@ -27,6 +27,16 @@ class LastestDealTableViewCellViewModel {
         return 70
     }
     
+    public func loadCurrentLatestDeal(indexPath: IndexPath) -> LatestDeal {
+        return nft?.latestDeals?[indexPath.row] ?? LatestDeal()
+    }
     
+    public func isInicial(indexPath: IndexPath) -> Bool {
+        return indexPath.row == 0
+    }
+    
+    public func isFinal(indexPath: IndexPath) -> Bool {
+        return indexPath.row == numberOfRowsInSection - 1
+    }
 
 }
