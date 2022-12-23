@@ -1,0 +1,88 @@
+{
+    "quotation_ethereum": {
+        "eth_value": 5.2,
+        "value_in_dollars": 6036.32,
+        "coin_eth_image": "coin.ethereum"
+    },
+
+    "latest_transactions_cell": {
+        "latest_transactions_title" : "Últimas Transações",
+        "list_of_transactions": [
+            {
+                "type": "entry",
+                "id_transaction" : "bnalsnlfn3216dfvcs154",
+                "image" : "symbol.eth",
+                "price_eth" : 1.2,
+                "value_dollar" : 1393.49,
+                "date_and_hour": "10/07/2022 16:50"
+            },
+            {
+                "type": "exit",
+                "id_transaction" : "dnmalfclf1012dfbgf123",
+                "image" : "image.exit",
+                "price_eth" : 0.85,
+                "value_dollar" : 987.05,
+                "date_and_hour": "16/07/2022 10:10"
+            },
+            {
+                "type": "entry",
+                "id_transaction" : "aghtfgujk3646dfvas121",
+                "image" : "symbol.eth",
+                "price_eth" : 1.2,
+                "value_dollar" : 1393.49,
+                "date_and_hour": "19/07/2022 08:20"
+            },
+            {
+                "type": "exit",
+                "id_transaction" : "cblsfbjbfg2019wlkji126",
+                "image" : "image.exit",
+                "price_eth" : 1.2,
+                "value_dollar" :  1393.49,
+                "date_and_hour": "21/07/2022 18:14"
+            },
+            {
+                "type": "entry",
+                "id_transaction" : "hjiuytfre2562swgju896",
+                "image" : "symbol.eth",
+                "price_eth" : 1.5,
+                "value_dollar" : 1710.86,
+                "date_and_hour": "25/07/2022 07:15"
+            },
+            {
+                "type": "exit",
+                "id_transaction" : "reftghujk8987cbadg124",
+                "image" : "image.exit",
+                "price_eth" : 1.8,
+                "value_dollar" :  2090.23,
+                "date_and_hour": "26/07/2022 12:44"
+            },
+            {
+                "type": "entry",
+                "id_transaction" : "aqdrcbsoi1791labcd190",
+                "image" : "symbol.eth",
+                "price_eth" : 1.7,
+                "value_dollar" : 1989.23,
+                "date_and_hour": "30/07/2022 14:23"
+            },
+            {
+                "type": "exit",
+                "id_transaction" : "oliutreas8989htphg167",
+                "image" : "image.exit",
+                "price_eth" : 1.5,
+                "value_dollar" :  1710.86,
+                "date_and_hour": "02/08/2022 10:04"
+            },
+            {
+                "type": "entry",
+                "id_transaction" : "rgtfredsew0987vhgfr134 ",
+                "image" : "symbol.eth",
+                "price_eth" : 1.2,
+                "value_dollar" : 1393.49,
+                "date_and_hour": "03/08/2022 16:05"
+                
+            }
+        ]
+    }
+}
+
+
