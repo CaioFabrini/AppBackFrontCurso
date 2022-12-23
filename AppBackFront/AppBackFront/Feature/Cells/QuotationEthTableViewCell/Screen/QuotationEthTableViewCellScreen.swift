@@ -90,7 +90,7 @@ class QuotationEthTableViewCellScreen: UIView {
             
             coinEthImageView.topAnchor.constraint(equalTo: topAnchor, constant: 36),
             coinEthImageView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -4),
-            logoImageView.widthAnchor.constraint(equalToConstant: 240),
+            coinEthImageView.widthAnchor.constraint(equalToConstant: 240),
             
         ])
     }
