@@ -50,6 +50,8 @@
 		3474B6C329552BDB00BC8BCD /* WalletService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6C229552BDB00BC8BCD /* WalletService.swift */; };
 		3474B6C529552C8600BC8BCD /* WalletData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6C429552C8600BC8BCD /* WalletData.swift */; };
 		3474B6C929552D8B00BC8BCD /* WalletData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3474B6C829552D8B00BC8BCD /* WalletData.json */; };
+		3474B6CC295536A000BC8BCD /* QuotationEthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6CB295536A000BC8BCD /* QuotationEthTableViewCell.swift */; };
+		3474B6D1295536D300BC8BCD /* QuotationEthTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474B6D0295536D300BC8BCD /* QuotationEthTableViewCellScreen.swift */; };
 		34B7CC8429507F33004D9557 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7CC8329507F33004D9557 /* AlertController.swift */; };
 		34B7CC8729508A5C004D9557 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7CC8629508A5C004D9557 /* TabBarVC.swift */; };
 		34B7CC8B29508B03004D9557 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7CC8A29508B03004D9557 /* HomeVC.swift */; };
@@ -100,6 +102,8 @@
 		3474B6C229552BDB00BC8BCD /* WalletService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletService.swift; sourceTree = "<group>"; };
 		3474B6C429552C8600BC8BCD /* WalletData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletData.swift; sourceTree = "<group>"; };
 		3474B6C829552D8B00BC8BCD /* WalletData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WalletData.json; sourceTree = "<group>"; };
+		3474B6CB295536A000BC8BCD /* QuotationEthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationEthTableViewCell.swift; sourceTree = "<group>"; };
+		3474B6D0295536D300BC8BCD /* QuotationEthTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationEthTableViewCellScreen.swift; sourceTree = "<group>"; };
 		34B7CC8329507F33004D9557 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		34B7CC8629508A5C004D9557 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		34B7CC8A29508B03004D9557 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -244,6 +248,7 @@
 		3474B64E2952213F00BC8BCD /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				3474B6CA2955366600BC8BCD /* QuotationEthTableViewCell */,
 				3474B6AC29547ADB00BC8BCD /* ListOffersTableViewCell */,
 				3474B6A329546BC900BC8BCD /* LastestDealTableViewCell */,
 				3474B6942953511D00BC8BCD /* NftDescriptionTableViewCell */,
@@ -447,6 +452,23 @@
 				3474B6C229552BDB00BC8BCD /* WalletService.swift */,
 			);
 			name = WalletService;
+			sourceTree = "<group>";
+		};
+		3474B6CA2955366600BC8BCD /* QuotationEthTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3474B6CD295536AE00BC8BCD /* Screen */,
+				3474B6CB295536A000BC8BCD /* QuotationEthTableViewCell.swift */,
+			);
+			path = QuotationEthTableViewCell;
+			sourceTree = "<group>";
+		};
+		3474B6CD295536AE00BC8BCD /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3474B6D0295536D300BC8BCD /* QuotationEthTableViewCellScreen.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 		34B7CC8229507F1A004D9557 /* Alert */ = {
@@ -655,6 +677,7 @@
 				3474B6512952218700BC8BCD /* NftFilterCollectionViewCell.swift in Sources */,
 				3474B6B42955227E00BC8BCD /* MagnifyingGlassVC.swift in Sources */,
 				3474B699295351AE00BC8BCD /* NftDescriptionTableViewCellScreen.swift in Sources */,
+				3474B6CC295536A000BC8BCD /* QuotationEthTableViewCell.swift in Sources */,
 				3474B6A529546C0E00BC8BCD /* LastestDealTableViewCell.swift in Sources */,
 				3474B654295221CB00BC8BCD /* NftFilterCollectionViewCellScreen.swift in Sources */,
 				3474B6472951C33200BC8BCD /* GenericService.swift in Sources */,
@@ -666,6 +689,7 @@
 				3474B6A829546C2500BC8BCD /* LastestDealTableViewCellScreen.swift in Sources */,
 				3474B6902953391900BC8BCD /* NftImageTableViewCell.swift in Sources */,
 				3474B6BA295529BF00BC8BCD /* WalletVC.swift in Sources */,
+				3474B6D1295536D300BC8BCD /* QuotationEthTableViewCellScreen.swift in Sources */,
 				3474B64D2951C55D00BC8BCD /* NFTData.swift in Sources */,
 				341CF71E293E06AA001A230A /* String+Extension.swift in Sources */,
 				3474B68A295332B300BC8BCD /* NftDetailViewModel.swift in Sources */,

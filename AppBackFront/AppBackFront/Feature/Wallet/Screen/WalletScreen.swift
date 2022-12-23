@@ -12,7 +12,7 @@ class WalletScreen: UIView {
     lazy var tableView: UITableView = {
         let tableView = UITableView()
         tableView.translatesAutoresizingMaskIntoConstraints = false
-        // TO DO: REGISTER
+        tableView.register(QuotationEthTableViewCell.self, forCellReuseIdentifier: QuotationEthTableViewCell.identifier)
         tableView.backgroundColor = UIColor(red: 26/255, green: 26/255, blue: 1/255, alpha: 1.0)
         tableView.separatorStyle = .none
         return tableView
@@ -25,6 +25,7 @@ class WalletScreen: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
+        backgroundColor = UIColor(red: 26/255, green: 26/255, blue: 1/255, alpha: 1.0)
         addViews()
         configConstraints()
     }
@@ -39,7 +40,7 @@ class WalletScreen: UIView {
     
     private func configConstraints() {
         NSLayoutConstraint.activate([
-            tableView.topAnchor.constraint(equalTo: topAnchor),
+            tableView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
             tableView.leadingAnchor.constraint(equalTo: leadingAnchor),
             tableView.trailingAnchor.constraint(equalTo: trailingAnchor),
             tableView.bottomAnchor.constraint(equalTo: bottomAnchor),
