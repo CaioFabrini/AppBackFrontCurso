@@ -33,7 +33,7 @@ class ProfileImageTableViewCellScreen: UIView {
 
     private func configConstraints() {
         NSLayoutConstraint.activate([
-            nftImageView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
+            nftImageView.topAnchor.constraint(equalTo: topAnchor),
             nftImageView.leadingAnchor.constraint(equalTo: leadingAnchor),
             nftImageView.trailingAnchor.constraint(equalTo: trailingAnchor),
             nftImageView.bottomAnchor.constraint(equalTo: bottomAnchor),
